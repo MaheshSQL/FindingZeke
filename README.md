@@ -15,22 +15,24 @@ By comparing these fingerprints, computers can quickly and accurately identify i
 
 ### How to run the code
 
-1. Create a Conda environment.
+1. You may have to install [Miniconda](https://docs.anaconda.com/free/miniconda/index.html) if you do not have conda installed. Miniconda is a free minimal installer for conda.
+
+2. Create a Conda environment.
 
 - `conda create --name findingzeke python==3.10 --yes`
 - `conda activate findingzeke`
 - `conda install notebook ipykernel --yes`
 - `ipython kernel install --name findingzeke --display-name "Python 3.10 (findingzeke)" --user`
 
-2. Install libraries.
+3. Install libraries.
 
 - `pip install torch`
 - `pip install requests matplotlib python-dotenv`
 - `pip install transformers`
 
-3. Rename .env_template file to .env, update values in .env file.
+4. Rename .env_template file to .env, update values in .env file.
 
-4. Run the code in notebooks within ./notebooks directory.
+5. Run the code in notebooks within ./notebooks directory.
 
 - Notebook 01 demonstrates Azure AI Vision embeddings.
 - Notebook 02 uses CLIP embedding model from Hugging Face.
