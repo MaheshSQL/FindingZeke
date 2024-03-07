@@ -13,6 +13,10 @@ Image embeddings for similarity analysis involve transforming images into a set 
 
 By comparing these fingerprints, computers can quickly and accurately identify images that are visually similar to each other, just as you might sort objects based on their shapes or colors.
 
+### Results
+
+![](images/results.png)
+
 ### How to run the code
 
 1. You may have to install [Miniconda](https://docs.anaconda.com/free/miniconda/index.html) if you do not have conda installed. Miniconda is a free minimal installer for conda.
